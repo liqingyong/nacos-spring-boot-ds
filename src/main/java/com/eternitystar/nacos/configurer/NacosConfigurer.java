@@ -26,11 +26,11 @@ public class NacosConfigurer {
     private Integer port;
     @Value("${nacos.discovery.server-addr}")
     private String serverAddr;
-    @Value("${nacos.server-name:fpf-nacos-server}")
+    @Value("${nacos.server-name:spring-nacos-server}")
     private String serverName;
-    @Value("${spring.application.name:fpf-nacos-server}")
+    @Value("${spring.application.name:spring-nacos-server}")
     private String localServerName;
-    @Value("${nacos.discovery.cluster-name:fpf-nacos-cluster}")
+    @Value("${nacos.discovery.cluster-name:spring-nacos-cluster}")
     private String clusterName;
 
     @Bean(name = "nacosConfigurer")

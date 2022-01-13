@@ -9,6 +9,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Import(NacosConfigurer.class)
 @Documented
-public @interface EnableFpfNacos {
+public @interface EnableDSNacos {
 
 }
