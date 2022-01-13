@@ -1,7 +1,7 @@
 # nacos-spring-boot-ds
 Nacos2x + Springboot2.3+，解决Nacos-SpringBoot不支持高版本SpringBoot，封装启用服务注册
-
-打包完成后手动删除jar里面的org.springframework目录，否则将会跟项目springframework冲突
+启用服务后默认注册进nacos，可在nacos中查看服务运行情况。
+# 打包完成后手动删除jar里面的org.springframework目录，否则将会跟项目springframework冲突
 ###使用：
 # 1、yml文件中配置：
 ```
